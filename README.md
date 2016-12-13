@@ -5,4 +5,6 @@ See https://vaadin.com/docs/-/part/framework/addons/addons-maven.html for furthe
 
 Widgetset compilation is automatically executed, bounded to its default phase (see plugin configuration in pom file).
 
+Custom stylesheet is imported with @Stylesheet annotation; you can also define a custom theme (extending valo for example).
+
 To run lauch `mvn spring-boot:run`
