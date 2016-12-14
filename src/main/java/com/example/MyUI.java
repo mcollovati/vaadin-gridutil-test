@@ -11,9 +11,9 @@ import com.vaadin.ui.UI;
 import com.vaadin.ui.renderers.ClickableRenderer;
 import org.vaadin.gridutil.renderer.EditDeleteButtonValueRenderer;
 
-@Theme("valo")
+@Theme("myTheme")
 @SpringUI
-@StyleSheet({"style.css"})
+//@StyleSheet({"style.css"})
 public class MyUI extends UI {
   @Override
   protected void init(VaadinRequest vaadinRequest) {

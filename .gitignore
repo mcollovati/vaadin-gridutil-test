@@ -37,3 +37,7 @@ buildNumber.properties
 
 # Exclude maven wrapper
 !/.mvn/wrapper/maven-wrapper.jar
+
+
+#VAADIN
+src/main/resources/VAADIN/themes/**/styles.css
